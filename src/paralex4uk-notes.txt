@@ -1,0 +1,117 @@
+
+Documentation on Paralex project:
+
+
+    purpose:
+        - build resources for evaluation and development of CL systems:
+            > MT
+            > automated transfer of annotation
+            > parallel corpora and terminology support
+            > word embedding models
+            > ontology induction
+            > ontology-guided and low-resource MT
+            
+            > theoretical topics
+                - theory of representations
+                - adaptability of training examples and training corpora
+                - discovering translation equivalents
+                - support of monolingual authoring
+
+    - desription and replication of the workflow
+    - concept of the corpus and reusability of the code
+    - specification of the format and interface design 
+    
+    
+    
+    specifications:
+        xml --> monolingual with identifiers:
+            > input for PoS tagging / parsing;
+            > MT output generation
+            > use of xml libraries for processing
+            
+            >> preserving the structure 
+        tmx doesn't preserve information about text structure / layout;
+            >> tmx output as one of the transformations
+            
+            
+        alignment
+            maximal aligned units can be identified in each stage:
+                - corpus --> then using dict models / similarity metrics to find 
+                - text --> paragraphs / sentences 
+                - paragraph --> sentences 
+                - sentence --> phrases / words
+                
+        output
+            tmx
+            one sent per line
+            discourse - level representations
+            pos-tagged aligned structures (vrt)
+            paired sentence pairs/triplets
+            
+        possible extensions to terminology, MWE, entity annotations
+        possibilities of construction annotations / treebanks
+        
+            
+            
+        original monolingual format:
+            + manual genre and topic characterization from the rubrics
+            > possibility to dynamically select and operate with sub-corpora...
+            
+            
+            
+        
+        <corpus attr*=vals*>
+            
+            <text id='t10000'  attr*=vals*>*
+                <title> </title>*
+                    
+                    
+                <body> 
+                    <heading> </heading>*
+                    
+                    <p id=p10000>*
+                        <s id=s10000>*  </s>
+                        
+                    
+                    </p>
+                    
+                
+                
+                </body>
+            
+            </text>
+            
+        </corpus>
+        
+        
+        xml processing workflow 
+        
+            
+            
+    """
+    note: small / correctable vs. large / automatically processed corpus
+        will require different workflows
+    
+    """
+    
+    structure of the corpus:
+        - interviews
+        
+    
+    further development: 
+    corpus of literary translation
+    poetry translations (both directions)
+    
+
+    - morphological support (a separate project)
+    - disrouces
+    - construction grammar induction
+    - semantic representations
+    - terminology
+    
+    - linking dictionary support
+    - interoperability with models
+    
+    - 'observable corpus' research > ability to read & understand of what is going on; representativeness and typicality 
+    
+    
