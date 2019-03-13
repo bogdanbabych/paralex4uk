@@ -115,3 +115,9 @@ Documentation on Paralex project:
     - 'observable corpus' research > ability to read & understand of what is going on; representativeness and typicality 
     
     
+    
+    data structure:
+        gdata = global data with unrestricted space (server or local external hard drive)
+        data inside project - pilot data / small corpus resulting data
+    
+    

@@ -1,0 +1,19 @@
+
+Лабораторія української      @f   форум
+[рання версія]
+                            Проекти
+    https://mova.institute/
+    https://mova.institute/?fbclid=IwAR1GFDkmnZBpe3bg4QTT1iEkz1rzQJgpXxQL7JivNuVCDMCA5U_lh6m4_eU
+    https://github.com/UniversalDependencies/UD_Ukrainian-IU/blob/dev/README.md
+    
+    
+    https://github.com/mova-institute/udpipe
+    
+    https://wanthalf.saga.cz/intertext
+    
+    
+Project to generate POS tag dictionary for Ukrainian language
+    https://github.com/brown-uk/dict_uk
+    https://github.com/brown-uk/dict_uk
+    
+    
